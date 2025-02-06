@@ -10,7 +10,7 @@ public class ListaArray implements IArmazenador,java.io.Serializable
     private ArrayList <Object> lista;
 
     public ListaArray(){
-        setLista(new <Object>ArrayList());
+        setLista(new ArrayList<Object>());
     }
 
     /**
